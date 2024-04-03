@@ -1,9 +1,10 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+//import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Highlights from "./components/Highlights";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import Model from "./components/Model";
 
 const App = () => {
   useGSAP(() => {
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Highlights />
+      <Model />
     </main>
   );
 };

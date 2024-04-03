@@ -1,6 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { heroVideo, smallHeroVideo } from "../utils";
 
 const Hero = () => {
